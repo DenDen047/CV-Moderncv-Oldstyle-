@@ -18,10 +18,12 @@
 \usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
-% adjust the page margins
+% adjust the page marginscvdoubleitem
 \usepackage[scale=0.75]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{url}
 
 % personal data
 \name{Naoya}{Muramatsu}
@@ -64,17 +66,26 @@
 
 \section{Experience}
 \subsection{Vocational}
-\cventry{2017--Present}{Engineer}{Pixie Dust Technologies, Inc.}{Tokyo}{}{General description no longer than 1--2 lines.\newline{}}
+\cventry{2017--Present}{Engineer}{Pixie Dust Technologies, Inc.}{Tokyo}{}{General description no longer than 1--2 lines.\newline{}}}
 \subsection{Miscellaneous}
-\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+\cventry{2016--2017}{Engineer(Intern)}{Fixstars Corporation}{Tokyo}{}{General description no longer than 1--2 lines.\newline{}}
+
+\section{Publications}
+\cvlistitem{Natsumi Kato*, Hiroyuki Osone*, Daitetsu Sato, \textbf{Naoya Muramatsu}, and Yoichi Ochiai. 2018. DeepWear: a Case Study of Collaborative Design between Human and Artificial Intelligence. In Proceedings of the Twelfth International Conference on Tangible, Embedded, and Embodied Interaction (TEI ’18). ACM, New York, NY, USA, 529-536. DOI: \url{https://doi.org/10.1145/3173225.3173302 (* Joint first authorship.)}}
+\cvlistitem{Natsumi Kato, Hiroyuki Osone, Daitetsu Sato, \textbf{Naoya Muramatsu}, and Yoichi Ochiai. 2017. Crowd Sourcing Clothes Design Directed by Adversarial Neural Networks. In NIPS 2017 Workshop (NIPS ’17). \url{https://nips2017creativity.github.io/}}
+\cvlistitem{\textbf{Naoya Muramatsu}, Chun Wei Ooi, Yuta Itoh, and Yoichi Ochiai. 2017. DeepHolo: recognizing 3D objects using a binary-weighted computer-generated hologram. In SIGGRAPH Asia 2017 Posters (SA ’17). ACM, New York, NY, USA, Article 29, 2 pages. DOI: \url{https://doi.org/10.1145/3145690.3145725}}
+\cvlistitem{Mose Sakashita, Yuta Sato, Ayaka Ebisu, Keisuke Kawahara, Satoshi Hashizume, \textbf{Naoya Muramatsu}, and Yoichi Ochiai. 2017. Haptic marionette: wrist control technology combined with electrical muscle stimulation and hanger reflex. In SIGGRAPH Asia 2017 Posters (SA ’17). ACM, New York, NY, USA, Article 33, 2 pages. DOI: \url{https://doi.org/10.1145/3145690.3145743}}
+\cvlistitem{\textbf{Naoya Muramatsu}, Kazuki Ohshima, Ryota Kawamura, Ooi Chun Wei, Yuta Sato, and Yoichi Ochiai. 2017. Sonoliards: Rendering Audible Sound Spots by Reflecting the Ultrasound Beams. In UIST 2017 Demo (UIST ’17). ACM, New York, NY, USA, 57-59. DOI: \url{https://doi.org/10.1145/3131785.3131807}}
+\cvlistitem{Naoya Muramatsu, Ooi Chun Wei, Takashi Miyazaki. 2017. Development of High Performance Filter for Indoor Positioning System. In ICISIP 2017 Oral.}
+% \cvlistitem{村松直哉, 佐藤哲司, 伏見卓恭. 2017. レビュー観点の推移パターンに基づく商品属性の抽出手法. In DEIM 2017}. 学生プレゼンテーション賞.}
+
 
 \section{Languages}
-\cvitemwithcomment{Language 1}{Skill level}{Comment}
-\cvitemwithcomment{Language 2}{Skill level}{Comment}
-\cvitemwithcomment{Language 3}{Skill level}{Comment}
+\cvitemwithcomment{Japanese}{Native}{Comment}
+\cvitemwithcomment{English}{}{Comment}
 
 \section{Computer skills}
-\cvdoubleitem{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
+\cvitem{Programming Languages}{Python, C, C++}
 \cvdoubleitem{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
 \cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
 
